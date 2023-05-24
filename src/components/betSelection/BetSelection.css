@@ -1,0 +1,67 @@
+.bet-selection{
+    width: 100%;
+    padding:  20px;
+}
+
+.each-bet{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+}
+
+.country{
+    width: 100%;
+}
+
+.select-odd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-names{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bet-odd{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.choose{
+    flex: 1;
+    height: 100%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.time{
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(209, 205, 205);
+    margin-bottom: 5px;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
